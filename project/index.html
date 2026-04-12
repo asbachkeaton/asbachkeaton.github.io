@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Senior project write-up: problem, approach, results, and PDF download."
+    />
+
+    <title>Senior Project — Keaton Asbach</title>
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../styles.css" />
+    <script defer src="../main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="brand" href="../#home" aria-label="Go to home page">
+          <span class="brand-mark" aria-hidden="true">∑</span>
+          <span class="brand-text">Keaton Asbach</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary">
+          <a href="../#about">About</a>
+          <a href="../#project" aria-current="page">Senior project</a>
+          <a href="../#resume">Resume</a>
+          <a href="../#contact" class="nav-cta">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" class="site-main" tabindex="-1">
+      <section class="section">
+        <div class="container narrow">
+          <p class="eyebrow">
+            <a href="../#project">← Back to portfolio</a>
+          </p>
+          <h1 class="hero-title" style="font-size: clamp(28px, 4vw, 44px)">
+            Senior Project Title
+          </h1>
+          <p class="lead">
+            Replace this with a 2–3 sentence abstract. Pretend the reader has 60 seconds:
+            what you did, why, and what you found.
+          </p>
+
+          <div class="button-row">
+            <a class="button primary" href="../assets/docs/senior-project.pdf">
+              Download PDF
+            </a>
+            <a class="button" href="../#contact">Contact</a>
+          </div>
+
+          <div class="panel">
+            <h2 style="margin-top: 0">Overview</h2>
+            <ul class="bullets">
+              <li><strong>Context</strong>: What motivated the project?</li>
+              <li><strong>Question</strong>: What problem did you solve or investigate?</li>
+              <li><strong>Result</strong>: What is the key insight or conclusion?</li>
+            </ul>
+          </div>
+
+          <div class="grid-2">
+            <div class="panel">
+              <h2 style="margin-top: 0">Methods</h2>
+              <p class="muted">
+                Add your approach in a hiring-manager-friendly way. Mention the math,
+                tools, and how you checked correctness.
+              </p>
+              <ul class="chip-list" aria-label="Methods list">
+                <li class="chip">LaTeX</li>
+                <li class="chip">Python</li>
+                <li class="chip">Proof</li>
+                <li class="chip">Modeling</li>
+              </ul>
+            </div>
+            <div class="panel">
+              <h2 style="margin-top: 0">Results</h2>
+              <p class="muted">
+                Summarize 2–4 outcomes. If you have plots/figures, add them to
+                <span class="mono">assets/</span> and embed them here.
+              </p>
+              <ul class="bullets">
+                <li>Result 1 (one sentence)</li>
+                <li>Result 2 (one sentence)</li>
+                <li>Limitations / assumptions</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="panel embed" style="margin-top: 16px">
+            <h2 class="sr-only">Project PDF preview</h2>
+            <object
+              data="../assets/docs/senior-project.pdf"
+              type="application/pdf"
+              width="100%"
+              height="860"
+              aria-label="Embedded senior project PDF"
+            >
+              <p class="muted">
+                PDF preview isn’t available in this browser. Use
+                <a href="../assets/docs/senior-project.pdf">this link</a> to open the PDF.
+              </p>
+            </object>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="muted">
+          © <span id="year"></span> Keaton Asbach.
+        </p>
+        <p class="muted small">
+          <a href="../#home">Home</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
